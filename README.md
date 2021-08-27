@@ -9,4 +9,4 @@ User : Able to buy his/her own products. Once admin created a user. Users are ab
 Also the user should have access to edit and delete his / her own products.
 
 Tech stack:
-     React.js,React Bootstrap, Material UI,Node.js,Express.js,Jwt,MySQL.
+     React.js,React Bootstrap, Material UI,Node.js,Express.js,Json Web Tokens,MySQL.
