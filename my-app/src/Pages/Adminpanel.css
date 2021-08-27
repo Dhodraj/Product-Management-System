@@ -1,0 +1,72 @@
+.adminpanel{
+    display: flex;
+}
+.datatable{
+    flex: 4;
+    display:grid;
+    place-items:center;
+    text-align:center;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+.tableprint{
+     border-collapse:collapse;
+     align-items:center;
+     width:90%;
+     height:50px;
+}
+
+ .tableprint thead{
+        
+        background-color: rgb(96, 186, 202);
+}
+
+.tableprint tr, .tableprint th{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:15px;
+    
+}
+
+.tableprint td
+    {
+        border:1px solid black;
+        padding:15px;
+        font-weight:600;
+    }
+
+
+.but{
+    margin-left: 10px;
+      display:flex;
+      flex-direction: column;
+      justify-content: space-evenly;      
+}
+
+.button_slide_right{
+    border:none;
+   background-color: transparent;
+}
+
+
+.abutton{
+    border: none;
+    text-decoration: none;
+}
+
+.abutton:hover span{
+    text-decoration: none;
+    overflow: visible;
+    padding: 0 20px;
+}
+
+.abutton span{
+    width: 0;
+    position: absolute;
+    overflow: hidden;
+    left: 25px;
+    transition: 0.25s;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+
+}

@@ -1,0 +1,38 @@
+.editpanelgrid{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(168,190,200,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.editborder{
+    border: 1px solid black;
+    padding: 20px;
+    background: cornsilk;
+    width: 30vw;
+    border-radius: 5px;
+}
+
+
+
+.editfinput{
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+.editbuttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.updatebutton{
+    width: 100%;
+}
+
+.backButton{
+    margin-top: 10px;
+}

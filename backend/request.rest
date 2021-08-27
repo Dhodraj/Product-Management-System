@@ -1,0 +1,9 @@
+###
+POST http://localhost:3005/signin 
+Content-Type: application/json
+
+{
+    "name":"Annamalai",
+    "password":"Hi"
+}
+

@@ -1,0 +1,40 @@
+.itisgrid{
+    display: grid;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(168,190,200,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.gridborder{
+    border: 1px solid black;
+    padding: 15px;
+    background: cornsilk;
+}
+
+.inventgrid{
+    display: grid;
+    place-items: center;
+}
+
+.inventinp{
+    width: 100%;
+}
+.headertext{
+    text-align: center;
+}
+
+.inventbutt{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#this{
+    margin-top: 10px;
+}
+
+

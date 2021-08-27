@@ -1,0 +1,65 @@
+.containers{
+    display: grid;
+    place-items: center;
+    width: 100vw !important;
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(168,190,200,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.card{
+    font-family: sans-serif;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    margin-bottom:3em;
+    border-radius: 10px;
+    background-color: #ffff;
+    padding: 1.8rem;
+    box-shadow: 2px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.cardtext{
+   text-align: center;
+}
+
+.inpfield{
+    height: 35px;
+}
+
+.inputBoxcard{
+    text-align: center;
+    font-weight: bold;
+
+    border-bottom: 2px solid rgb(245 239 239);
+    line-height: 0.1em;
+    margin: 25px 0;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.btnlogaa{
+    background-color: rgb(69, 69, 185) !important;
+    color: white !important;
+    padding: 18px 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnlogaa:hover{
+    background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+    animation: slide 5s linear infinite;
+}
+
+
+.printword{
+    text-align: center;
+}
